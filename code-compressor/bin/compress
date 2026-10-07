@@ -1,0 +1,23 @@
+#!/bin/bash
+# 一键压缩: ./compress input.js [output.min.js]
+set -e
+INPUT="$1"
+OUTPUT="${2:-${INPUT%.*}.min.js}"
+
+if [[ "$INPUT" == *.js ]]; then
+  terser "$INPUT" -o /tmp/cc-tmp.js -c -m --toplevel
+  python3 -c "
+import re
+c = open('/tmp/cc-tmp.js').read().strip()
+c = c.replace(';', ';\n')
+c = re.sub(r'\n\s*\n+', '\n', c)
+open('$OUTPUT','w').write(c)
+"
+  echo "Done: $OUTPUT ($(wc -c < "$OUTPUT") bytes)"
+elif [[ "$INPUT" == *.py ]]; then
+  python-minifier -o "$OUTPUT" "$INPUT"
+  echo "Done: $OUTPUT ($(wc -c < "$OUTPUT") bytes)"
+else
+  echo "Unsupported: $INPUT (use .js or .py)"
+  exit 1
+fi

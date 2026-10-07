@@ -1,0 +1,15 @@
+#!/bin/bash
+# Server health check - run on the server itself
+echo "=== $(hostname) $(date '+%H:%M') ==="
+echo "--- CPU ---"
+uptime | awk -F'load average:' '{print "Load:" $2}'
+echo "--- Memory ---"
+free -m | awk 'NR==2{printf "Used: %sMB / %sMB (%.0f%%)\n", $3, $2, $3/$2*100}'
+echo "--- Disk ---"
+df -h / | awk 'NR==2{print "Root: " $3 " / " $2 " (" $5 ")"}'
+echo "--- Services ---"
+for s in mail-relay-143 mail-relay-2525 anytls-relay-8443 postfix dovecot xray; do
+  if systemctl list-unit-files 2>/dev/null | grep -q "^$s"; then
+    echo "$s: $(systemctl is-active $s 2>/dev/null)"
+  fi
+done
