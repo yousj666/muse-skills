@@ -1,0 +1,68 @@
+---
+name: writing-helper
+description: 写作小能手：写中文和英文都像真人写的。散文、随笔、帖子、文案、演讲稿、书信、社媒短文、产品介绍、故事开头等原创写作都用它。字数默认不固定，写到内容自然完整为止，宁可丰满不要单薄；用户给了字数就按字数写。成稿前过一遍 AI 味自查。
+---
+
+# 写作小能手 — Human Writing, Chinese & English
+
+一句话：写出来的东西要像一个具体的人在对具体的读者说话，而不是像模板在填充。
+
+## 什么时候用
+
+用户要「写一篇 / 写一段 / 帮我写」任何原创文字时：文章、随笔、帖子、文案、演讲稿、信、社媒动态、产品介绍、活动稿、故事、双语稿。改稿去 AI 味用 humanizer 技能；这支技能管从零写。
+
+## 字数规矩（用户亲订）
+
+- **默认不固定字数**：写到意思完整、气韵连贯为止。宁可多一点、写丰满，不要为了短而把内容削单薄。
+- **用户给了字数**（如「写 800 字」「300 words」）：按这个数写，误差控制在 ±10% 以内，交稿时报实际字数。
+- **用户给了范围**（如「1000 到 1500 字」）：落在范围里，不贴边。
+- **用户说「短一点 / 长一点」**：短＝把话说透的最短版，长＝展开细节和例子，不注水重复。
+- 平台有硬限制的（微博、推文、标题）按平台限制来，并在交稿时说明。
+
+## 像真人的核心
+
+真人写作的共同点，中英文都成立：
+
+1. **为一个读者写**：动笔前先定三件事——写给谁、要他读完有什么感觉或行动、语气是亲近还是正式。定不下来就按上下文最合理的那个定，不要写成对所有人喊话。
+2. **具体压倒抽象**：写「凌晨两点还在改第三版」不写「付出了很多努力」；写数字、名字、场景、原话。没有真实细节时宁可写得朴素，不编造事实充场面（虚构类写作除外，那是任务本身）。
+3. **句子长短交错**：真人不会每句一样长。长句铺陈，短句落锤。段落也一样，有一段的，也有一整段慢慢说的。
+4. **有取舍**：真人会漏掉一些次要的、会偏心主次；面面俱到、每点一样重，是机器的习惯。
+5. **留一点人的毛边**：恰当的口语、插话、反问、迟疑、幽默，按文体和读者放。正式文体收着放，个人写作放开。
+
+## 中文写作要点
+
+- 书面语和口语的比例按场景定：公文/公告偏书面，帖子/随笔可以带口语，别端着。
+- 四字短语用在刀刃上，一句里连排三个就是官腔。
+- 避开这些 AI 高频词，除非场景真需要：值得一提的是、总而言之、综上所述、在当今社会、随着……的发展、不难发现、让我们一起、未来可期、赋能、闭环（商业黑话按行业语境另算）。
+- 标点用中文全角；破折号和省略号别滥用，一段里各最多一处。
+- 开头别用「在人生的旅途中」式空抒情，第一句就给画面、事实或态度。
+
+## English Writing 要点
+
+- Write like a native speaker, not a translation: idioms where they fit, contractions in anything informal (it's, don't), and sentence structures English actually uses — no Chinglish word order, no translated Chinese rhetoric.
+- Avoid AI stock words unless the context truly needs them: delve, tapestry, landscape (figurative), pivotal, crucial, furthermore, moreover, in today's fast-paced world, it's important to note.
+- Vary openings: don't start consecutive paragraphs the same way; don't open with "In the world of…" or close with "In conclusion".
+- Match the register: a Reddit post, a cover letter, and a product page are three different voices. Pick the one the user asked for.
+- Em dashes are fine in English but ration them — one or two per piece, not one per paragraph.
+
+## 双语稿
+
+用户要中英双语时：先写定主语言版，再按目标语言的习惯**重写**另一版，不逐句直译；数字、专名、日期两版必须一致；排版上主语言在前，除非用户另有要求。
+
+## 工作流程
+
+1. 定读者、目的、语气、字数（用户没给字数就按默认规矩）。
+2. 先在心里列 3–5 个要点或一条故事线，再动笔，不要边写边想结构。
+3. 写完通读一遍做 AI 味自查：
+   - 有没有排比三连、每段一个金句收尾？
+   - 有没有「不是 X，而是 Y」的假深刻对比？
+   - 有没有空话开场和口号结尾？
+   - 句子是不是齐刷刷一样长？
+   - 换成任何别的话题，这段话是不是照样成立？照样成立＝太空，重写具体。
+4. 自查改完再交稿。交稿只交成稿本身；用户问字数或过程时才另说。
+
+## 边界
+
+- 不编造事实、数据、引用来充实文章；缺素材就写明或问用户。
+- 用户给了范文/样本时，以样本的语气和习惯为准，本技能的规矩让位。
+- 用户明确要某种风格（官方通稿、营销腔、古风等）时，按他要的风格写，不强行「像人」到违和。

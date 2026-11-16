@@ -1,6 +1,6 @@
 # Muse Skills
 
-Personal collection of Muse AI skills — **34 skills** in total.
+Personal collection of Muse AI skills — **35 skills** in total.
 
 ## 视频制作 · Remotion 系列（官方技能包，13 个）
 
@@ -38,12 +38,13 @@ Personal collection of Muse AI skills — **34 skills** in total.
 - **anim-proton** — Proton：粒子特效引擎
 - **anim-gifenc** — gifenc：GIF 导出编码器
 
-## 效率工具（原有 4 个）
+## 效率工具（5 个）
 
 - **server-health** — 服务器健康检查
 - **mail-relay-monitor** — 邮件中转监控
 - **code-compressor** — 代码压缩与精简（JS/Python）
 - **concise** — 简洁模式：直给结论、零废话
+- **writing-helper** — 写作小能手：中英文写作都像真人，字数默认不固定、给数按数
 
 ## Usage
 
