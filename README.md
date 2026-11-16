@@ -2,6 +2,8 @@
 
 Personal collection of Muse AI skills — **35 skills** in total.
 
+📣 每日免费羊毛播报：Telegram 频道「Yousj 的羊毛」 https://t.me/yousj_free — 每天早上同步核实过的免费额度与限时优惠。
+
 ## 视频制作 · Remotion 系列（官方技能包，13 个）
 
 - **remotion-best-practices** — Remotion 技能总路由，不确定用哪个先看它
